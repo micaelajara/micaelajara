@@ -2,7 +2,7 @@
 
 **QA Engineer** based in Buenos Aires, Argentina. 4+ years testing web products for enterprise clients in the US, working in English with distributed teams.
 
-My core is **manual and functional testing**: understanding the product before touching it, designing cases that cover what can actually go wrong, and writing bug reports a developer can act on without asking me twice. I automate when it earns its place, not as a replacement for thinking.
+My core is **manual and functional testing**: understanding the product before touching it, designing cases that cover what can actually go wrong, and writing bug reports a developer can act on without asking me twice. I automate when it earns its place, it is not for me a replacement of thinking.
 
 [Portfolio](https://micaelajara.github.io) · [LinkedIn](https://www.linkedin.com/in/micaela-jara/) · [Email](mailto:micaaelajara@gmail.com)
 
