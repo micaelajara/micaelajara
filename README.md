@@ -66,9 +66,9 @@ Before testing I mapped the domain and the data model, because in a system like 
 
 ### 🚚 RebelMouse · Enterprise CMS (QA Engineer, 2022 to 2026)
 
-QA and technical support for a SaaS CMS with enterprise clients in the US. QA team in Russia, clients in the US, everything in English.
+QA and technical support for a SaaS CMS with enterprise clients in the US. Clients in the US, distributed team, everything in English.
 
-- **Built the QA process from scratch.** When I joined there was none: I set up test cases, regression before each release, smoke tests after each deploy and the bug flow with development.
+- **QA for the enterprise accounts**, the clients with custom code and the most at stake on each release: test cases from every ticket, regression before each release, smoke tests after each deploy and the bug flow with development.
 - **Penske Truck Rental, the company's biggest client:** end-to-end testing across 5 domains with custom code, covering new features, full redesigns and pre-launch validation.
 - **Critical bug in the booking flow**, the feature with the highest business impact. I analyzed the network requests, found the failing endpoint and escalated it with the full impact context. Fixed within hours.
 - **Proactive testing** when there were no tickets: I went looking for problems on my own, including validating SEO across entire sites with a Python script and Screaming Frog.
