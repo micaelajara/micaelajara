@@ -4,6 +4,8 @@
 
 My core is **manual and functional testing**: understanding the product before touching it, designing cases that cover what can actually go wrong, and writing bug reports a developer can act on without asking me twice. I automate when it earns its place, it is not for me a replacement of thinking.
 
+📂 **[See my manual QA work: test plans, test cases and bug reports](https://github.com/micaelajara/manual-qa-portfolio)**
+
 [Portfolio](https://micaelajara.github.io) · [LinkedIn](https://www.linkedin.com/in/micaela-jara/) · [Email](mailto:micaaelajara@gmail.com)
 
 ---
@@ -25,6 +27,8 @@ The same steps on every project, whether there's a process in place or I'm the o
 ---
 
 ## Selected manual QA work
+
+The full material (all cases, all bug reports, the complete challenge report) is in **[manual-qa-portfolio](https://github.com/micaelajara/manual-qa-portfolio)**.
 
 ### 🛒 Óptica Global · B2B wholesale ecommerce (Freelance, 2025 to present)
 
