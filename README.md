@@ -32,11 +32,11 @@ Independent QA for a live eyewear ecommerce built on Medusa JS. I own the whole 
 
 - **Test plan of 111 cases across 12 areas:** checkout, payments, user accounts, emails and notifications, volume discounts, referrals, returns and refunds, shipping, catalog, admin panel, Store API and SEO.
 - **Balanced coverage:** 42 positive, 43 negative and 26 edge cases. 57 high priority.
-- **23 bugs reported with evidence, 2 of them critical.** Each one with environment, steps, actual vs. expected result, severity, linked case and retest notes.
+- **23 bugs reported with evidence:** 21 confirmed by the dev team (1 critical, 5 high) and 2 closed as expected behavior after review. Each one with environment, steps, actual vs. expected result, severity, linked case and retest notes.
 - **Most of it tested by hand or through the real API.** Only 13 cases are automated: the rest needed judgment, real orders or checking data in the admin.
 - **3 improvement proposals** for the product team (a product search, a clear "create account" flow, a call to action after checkout).
 
-**Highlight:** a volume discount that the cart calculated correctly **disappeared when the order was placed**, so the customer ended up paying full price without noticing. I reproduced it with a real order, confirmed it against the API response and escalated it as critical.
+**Highlight:** the first-purchase discount for customers referred by a lab was **impossible to use**. The referral code could only be entered in the profile, the profile only exists once you have an account, and the account is only created by completing a first purchase, which is the only one that qualifies for the discount. Nobody had noticed because each screen worked fine on its own; the bug was in the chain. After a partial fix I retested with a real order and confirmed the discount still wasn't being applied in the backend.
 
 Another one I'm proud of: a **race condition on stock**. I simulated two customers competing for the last 5 units and confirmed the system rejects the second checkout instead of overselling.
 
